@@ -1,0 +1,64 @@
+video
+{
+    width: 70vw;
+    text-align: center;
+    display:block;
+    margin:1vw auto 2vw auto;
+}
+
+.principal
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+
+.musique
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:1vw auto 1vw auto;
+}
+
+p[id=debut]
+{
+    text-align: center;
+    font-size: 2em;
+    border-style: solid;
+    border-width: 2px 20px 2px 20px;
+    border-color: turquoise;
+    padding: 1vw;
+}
+
+p
+{
+    margin:1vw; 
+}
+
+h1
+{
+    font-family: fantasy;
+    text-align: center;
+    font-size: 3em;
+    margin: 1vw;
+}
+
+input
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: rgb(64,137,255);
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin:0 auto 0 auto;
+    cursor: pointer;
+
+}

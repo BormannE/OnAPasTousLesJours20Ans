@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Les 20 ans de Lisa !</title>
+    <link rel="stylesheet" href="Lisa.css">
+  </head>
+
+  <body> 
+      <h1>Joyeux anniversaire Lisa !</h1>
+      <p id="debut">Coucou Lisa.<br> Je crois que le jour-J de tes 20 ans est arrivé. <br> On a donc décidé de te faire une petite surprise. J'espère qu'elle va te plaire. <br> Pour commencer cette surprise, tu dois juste cliquer sur le bouton ci-dessous. <br> Bon visionnage !</p>
+    <input type="button" name="surprise" id="surprise" value="Clique sur ce bouton pour voir la surprise !">
+    <div class="principal" style="display:none" id="Video">
+    <video controls id="MyVideo">    
+        <source src="Essai.mp4"
+                type="video/mp4">
+    </video>
+    <input type="button" name="musiques" id="musiques" style="display:none"value="Si tu veux réécouter quelques morceaux, c'est par ici !">
+    <div class="musique" style="display:none" id="musique">
+        <div class="musique">
+    <p>Lac du Connemara</p>
+    <audio controls>
+        <source src="Lac_du_connemara.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>Ice Cream </p>
+      <audio controls>
+        <source src="ice-cream.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>Instant March </p>
+      <audio controls>
+        <source src="instant-march.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>Moment for Morricone </p>
+      <audio controls>
+        <source src="moment-for-morricone-ennio-morriconearr-johan-de-meij.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>Oriental Postcard </p>
+      <audio controls>
+        <source src="oriental-postcards.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>La soupe aux choux </p>
+      <audio controls>
+        <source src="raymond-lefevre-la-soupe-aux-choux-generique-musique-du-film-la-soupe-aux-choux.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+        <p>Sardou Super Star </p>
+      <audio controls>
+        <source src="sardou-super-star-harmonie-de-santes-concert-de-printemps-2019.mp3" type="audio/mp3">
+      </audio>
+    </div>
+      <div class="musique">
+          <p>Voyage Into The Blue </p>
+      <audio controls>
+        <source src="voyage-into-the-blue-naoya-wada.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="Lisa.js"></script>
+  </body>
