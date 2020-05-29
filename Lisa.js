@@ -7,6 +7,7 @@ document.getElementById('MyVideo').addEventListener('ended',myHandler,false);
     document.getElementById("surprise").addEventListener("click",apparait)
 function apparait()
 {
+    document.getElementById("musiques").style.display = "block";
     document.getElementById("Video").style.display = "block";
     document.getElementById("surprise").style.display = "none";
     document.getElementById("debut").style.display = "none";
